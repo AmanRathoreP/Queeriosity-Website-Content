@@ -1,0 +1,33 @@
+### Hugo ###
+# Generated files by hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+.hugo_cache/
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# Temporary lock file while building
+/.hugo_build.lock
+
+# Temporary files, backup files, OS-specific files
+*~
+*.bak
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE / editor-specific directories
+.vscode/
+.idea/
+
+# npm dependencies (if applicable)
+node_modules/
+
+# Environment variables (if any)
+.env

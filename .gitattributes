@@ -1,0 +1,35 @@
+# Normalize line endings for Markdown content
+*.md text eol=lf
+
+# Binary images
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.svg binary
+
+# Fonts (if any)
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+
+# JSON, YAML, and TOML configuration files
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.toml text eol=lf
+
+# Lock files
+package-lock.json binary
+yarn.lock binary
+
+# Archives
+*.zip binary
+*.tar binary
+*.tar.gz binary
+
+# Fix syntax highlighting on GitHub to allow comments
+.vscode/*.json linguist-language=JSON-with-Comments
